@@ -1,0 +1,6 @@
+/ {
+    chosen {
+        /* Replace the label with the one you want */
+        zmk,physical-layout = &left_numpad_layout;
+    };
+}
