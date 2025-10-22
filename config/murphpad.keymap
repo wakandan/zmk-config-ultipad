@@ -21,6 +21,12 @@
 };
 
 / {
+
+    chosen {
+        /* Use the exact label from murphpad-layout.dtsi */
+        zmk,physical-layout = &murphpad_layout_left_numpad;
+    };
+
     combos {
         compatible = "zmk,combos";
         combo_btclr {
