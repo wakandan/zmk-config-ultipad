@@ -21,12 +21,6 @@
 };
 
 / {
-
-    chosen {
-        /* Use the exact label from ultipad-layout.dtsi */
-        zmk,physical-layout = &ultipad_layout_left_numpad;
-    };
-
     combos {
         compatible = "zmk,combos";
         combo_btclr {

@@ -20,5 +20,5 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: murphpad
-    keymap: murphpad.keymap
+    shield: ultipad
+    keymap: ultipad.keymap
